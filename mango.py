@@ -71,8 +71,8 @@ class MangoTestCase(unittest.TestCase):
 
     def test_8_แสดงมะม่วงในตะกร้า(self):
         print('')
-        print('\tมะม่วงของจอย\t: ' + ''.join(self.ตะกร้าของจอย))
-        print('\tมะม่วงของโจ้\t: ' + ''.join(self.ตะกร้าของโจ้))
+        print('\tมะม่วงของจอย\t: ' + ' '.join(self.ตะกร้าของจอย))
+        print('\tมะม่วงของโจ้\t: ' + ' '.join(self.ตะกร้าของโจ้))
 
 
 if __name__ == '__main__':
