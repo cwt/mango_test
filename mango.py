@@ -32,7 +32,6 @@ class MangoTestCase(unittest.TestCase):
         # แล้วโจ้เก็บต่อไปอีก 8 ผล
         self.__ใส่ตะกร้า(self.ตะกร้าของโจ้, self.มะม่วง, self.โจ้เก็บได้มากกว่าจอย)
 
-
     def test_1_จอยมีมะม่วง_12ผล(self):
         self.assertEqual(
             len(self.ตะกร้าของจอย), 12
@@ -69,6 +68,11 @@ class MangoTestCase(unittest.TestCase):
         self.assertGreater(
             self.ครูเฉลย_จำนวนมะม่วงของโจ้, len(self.ตะกร้าของจอย)
         )
+
+    def test_8_แสดงมะม่วงในตะกร้า(self):
+        print('')
+        print('\tมะม่วงของจอย\t: ' + ''.join(self.ตะกร้าของจอย))
+        print('\tมะม่วงของโจ้\t: ' + ''.join(self.ตะกร้าของโจ้))
 
 
 if __name__ == '__main__':
